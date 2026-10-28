@@ -1,12 +1,6 @@
 # Arducam-Raspi-verification test
 Test procedure to verify Arducam
 
-# To run:
-bash
-sudo apt install v4l-utils usbutils python3-opencv
-python3 arducam_acquisition_test.py                  # full test, press Enter to trigger
-python3 arducam_acquisition_test.py --duration 20    # quick dry run (Step 3 will show FAIL on duration)
-
 # ArduCam Camera Interface & Acquisition Test
 
 A test script (`arducam_acquisition_test.py`) that checks an ArduCam USB camera connected to the Raspberry Pi 4B payload computer. It runs the four steps of the Camera Interface & Acquisition Test procedure, including requirement **PAY-12**, and records Pass/Fail for each.
